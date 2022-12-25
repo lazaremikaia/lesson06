@@ -1,4 +1,4 @@
-.project {
+.titleproject {
 	padding: 70px 0;
     border: 20px;
     text-align: left;
@@ -8,10 +8,52 @@
     color: white;
 }
 
-section {
+.mainproject {
 	background-color: blue;
 	top: 3902px;
 	left: 0px;
 	width: 1920px;
 	height: 308px;
+}
+.building {
+	width:	400px;
+	height: 200px:;
+    display: inline-block;
+}
+
+.img-size {
+	width: 200px;
+	height: 100px;
+}
+.project {	
+	inline-size: 150px;
+}
+h3 {
+	font-size: 20px;
+	margin-left: 1400px;
+	margin-top: 100px;
+}
+h3:before {
+	content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 4px;
+    height: 20px;
+    background-color: black;
+}
+
+
+.othercompany {
+	width:	450px;
+	height: 200px:;
+	margin-top: 100px;
+    display: inline-block;
+    inline-size: 300px;
+}
+.company {
+	width:	760px;
+	height: 500x:;
+    display: inline-block;
+    margin-left: 150px;
+    
 }
